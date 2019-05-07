@@ -5,7 +5,7 @@ This Dockerfile uses the latest version of Ubuntu, sets the WORKDIR to the path 
 
 
 
-##Dockerfile
+## Dockerfile
 
 ```// BASE IMAGE
 FROM ubuntu:latest
