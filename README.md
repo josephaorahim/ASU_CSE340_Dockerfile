@@ -60,3 +60,5 @@ docker run -it --rm -v (pwd):<container_dir> <image>
 docker run -it --rm -v %cd%:<container_dir> <image>
 ```
 **If you have spaces in your directories, you're going to have to have to surround the host path with quotation marks**
+
+
