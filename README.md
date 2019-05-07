@@ -7,20 +7,19 @@ This Dockerfile uses the latest version of Ubuntu, sets the WORKDIR to the path 
 
 ## Dockerfile
 
-```// BASE IMAGE
+```
+// BASE IMAGE
 FROM ubuntu:latest
 
-// will copy the current host (the ".") dir contents to the container dir (I would use -v volume flag, see below)
-// COPY . /container_dir
-
 // container will start with workdir
-WORKDIR /project3/"Provided Code" 
+WORKDIR /container_dir_you_want_to_start_with 
 
 // i have to have my tools
 RUN apt-get update && apt-get install -y \
     build-essential \
     gdb \
     vim
-    ```
+    
+```
 
 
