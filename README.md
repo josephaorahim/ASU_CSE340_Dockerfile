@@ -23,14 +23,14 @@ RUN apt-get update && apt-get install -y \
     
 ```
 
-** Note: to use gdb you must use the flag --privileged **
+**Note: to use gdb you must use the flag --privileged**
 
 ### Mapping your host drive
 
 This is all fine and dandy, but how do I get my stuff into the container to use all those tools????? You're going to have to map a directory from your host machine, to a directory in the container. You do this by using the flag
 
 ```
--v *hostdir*/*container_dir*
+-v *hostdir*/*containerdir*
 ```
 
 Here are some examples of how to use the flag
