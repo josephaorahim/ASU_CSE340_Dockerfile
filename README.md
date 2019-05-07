@@ -46,7 +46,7 @@ You can do what I did and use VS Code. There is a Docker addon that allows you t
 This is all fine and dandy, but how do I get my stuff into the container to use all those tools????? You're going to have to map a directory from your host machine, to a directory in the container. You do this by using the flag
 
 ```
--v *hostdir* *containerdir*
+-v host_dir/container_dir
 ```
 
 Here are some examples of how to use the flag.
