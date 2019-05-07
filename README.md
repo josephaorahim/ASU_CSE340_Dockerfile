@@ -13,6 +13,8 @@ Take the following contents and put them in a file called ```Dockerfile``` in yo
 
 This Dockerfile uses the latest version of Ubuntu, sets the WORKDIR to the path you would like the container to start at, and gets some tools for us to work within the container.
 
+In even simpler terms, these following lines of code will allow you to build an image that will be based on Ubuntu (latest version), that will start in a path specified in WORKDIR and already have build-essentials, gdb, and vim installed.
+
 ```
 // BASE IMAGE
 FROM ubuntu:latest
