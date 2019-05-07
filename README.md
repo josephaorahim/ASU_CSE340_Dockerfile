@@ -34,8 +34,8 @@ RUN apt-get update && apt-get install -y \
 
 
 ## Build the image
-Now that we have a Dockerfile, we can build an image (think of an image as a blueprint for the what the container should do, and the container the implementation... or the image is the class and the container is an object of that class). You can do this by following the documentation at Docker
-```https://docs.docker.com/develop/develop-images/baseimages/```
+Now that we have a Dockerfile, we can build an image (think of an image as a blueprint for the what the container should do, and the container the implementation... or the image is the class and the container is an object of that class). You can do this by following the documentation at Docker 
+[ HERE ](https://docs.docker.com/develop/develop-images/baseimages/)
 
 OR
 
