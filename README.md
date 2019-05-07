@@ -30,7 +30,7 @@ RUN apt-get update && apt-get install -y \
 This is all fine and dandy, but how do I get my stuff into the container to use all those tools????? You're going to have to map a directory from your host machine, to a directory in the container. You do this by using the flag
 
 ```
--v *hostdir*/*containerdir*
+-v *hostdir* *containerdir*
 ```
 
 Here are some examples of how to use the flag.
@@ -43,3 +43,4 @@ docker run -it --rm -v (pwd):<container_dir> <image>
 ```
 docker run -it --rm -v %cd%:<container_dir> <image>
 ```
+**If you have spaces in your directories, you're going to have to have to surround the host directory with quotation marks**
