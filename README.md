@@ -33,8 +33,13 @@ This is all fine and dandy, but how do I get my stuff into the container to use 
 -v *hostdir*/*containerdir*
 ```
 
-Here are some examples of how to use the flag
-
+Here are some examples of how to use the flag.
+### For Mac
 ```
-docker run -it -rm -v 
+docker run -it --rm -v (pwd):<container_dir> <image>
+```
 
+### For PC
+```
+docker run -it --rm -v %cd%:<container_dir> <image>
+```
