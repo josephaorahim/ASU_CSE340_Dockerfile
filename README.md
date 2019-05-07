@@ -34,12 +34,12 @@ This is all fine and dandy, but how do I get my stuff into the container to use 
 ```
 
 Here are some examples of how to use the flag.
-### For Mac
+##### For Mac
 ```
 docker run -it --rm -v (pwd):<container_dir> <image>
 ```
 
-### For PC
+##### For PC
 ```
 docker run -it --rm -v %cd%:<container_dir> <image>
 ```
