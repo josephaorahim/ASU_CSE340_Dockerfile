@@ -20,7 +20,7 @@ In even simpler terms, these following lines of code will allow you to build an 
 FROM ubuntu:latest
 
 // container will start with workdir
-WORKDIR /container_dir_you_want_to_start_with 
+WORKDIR /<container_dir_you_want_to_start_with>
 
 // i have to have my tools
 RUN apt-get update && apt-get install -y \
