@@ -1,9 +1,9 @@
 # Dockerfile
 
--[] Why I used Docker
--[] Show you the Dockerfile
--[] How to build the image
--[] How to map your host drive to the container
+- [ ] Why I used Docker
+- [ ] Show you the Dockerfile
+- [ ] How to build the image
+- [ ] How to map your host drive to the container
 
 
 Dockerfile I used at ASU to help me with projects/assignments. For example, in CSE340 I used this Dockerfile to have access to tools such as GDB to debug my code and make to add a bit of automation to my project.
