@@ -8,13 +8,14 @@
 ## Why Docker for my ASU assignments?
 Dockerfile I used at ASU to help me with projects/assignments. For example, in CSE340 I used this Dockerfile to have access to tools such as GDB to debug my code and make to add a bit of automation to my project.
 
-This Dockerfile uses the latest version of Ubuntu, sets the WORKDIR to the path you would like the container to start at, and gets some tools for us to work within the container.
+
 
 
 
 ## Dockerfile
 Take the following contents and put them in a file called ```Dockerfile``` in your project directory.
 
+This Dockerfile uses the latest version of Ubuntu, sets the WORKDIR to the path you would like the container to start at, and gets some tools for us to work within the container.
 ```
 // BASE IMAGE
 FROM ubuntu:latest
@@ -39,7 +40,7 @@ Now that we have a Dockerfile, we can build an image (think of an image as a blu
 
 OR
 
-You can do what I did and use VS Code, there is a Docker addon that allows you to right click on the Dockerfile then prompted for a name. Almost done, we just need to make sure that our container has access to our project.
+You can do what I did and use VS Code. There is a Docker addon that allows you to right click on the Dockerfile which will then prompt you for a name. We're almost done, we just need to make sure that our container has access to our project.
 
 ## Mapping your host drive
 
