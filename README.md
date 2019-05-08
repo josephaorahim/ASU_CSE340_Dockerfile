@@ -6,7 +6,7 @@
 - [ ] How to map your host drive to the container
 
 ## Why Docker for my ASU assignments?
-Dockerfile I used at ASU to help me with projects/assignments. For example, in CSE340 I used this Dockerfile to have access to tools such as GDB to debug my code and automate building my project with make.
+Why did I use Docker? I used Docker because I was having issues debugging my CSE340 projects and it allowed me to build an environment for my projects that allowed me to debug and execute my code on Ubuntu 18. 
 
 ## Dockerfile
 Take the following contents and put them in a file called ```Dockerfile``` in your project directory.
@@ -39,25 +39,25 @@ Now that we have a Dockerfile, we can build an image (think of an image as a blu
 
 OR
 
-You can do what I did and use VS Code. There is a Docker addon that allows you to right click on the Dockerfile which will then prompt you for a name. We're almost done, we just need to make sure that our container has access to our project.
+You can do what I did and use VS Code. There is a Docker plugin that allows you to right click on the Dockerfile, which will then prompt you for a name. We're almost done, we just need to make sure that our container has access to our project.
 
 ## Mapping your host drive
 
-This is all fine and dandy, but how do I get my stuff into the container to use all those tools????? You're going to have to map a directory from your host machine, to a directory in the container. You do this by using the flag
+Once you have the Dockerfile and the image built, you still need to access the "project" in the container somehow. We're going to do this by mapping the host project directory to a container directory. We do this with the volume flag:
 
 ```
--v host_dir/container_dir
+-v <host_dir>:<container_dir>
 ```
 
 Here are some examples of how to use the flag.
 ##### For Mac
 ```
-docker run -it --rm -v (pwd):<container_dir> <image>
+docker run -it --rm -v (pwd):<container_dir> <image_name>
 ```
 
 ##### For PC
 ```
-docker run -it --rm -v %cd%:<container_dir> <image>
+docker run -it --rm -v %cd%:<container_dir> <image_name>
 ```
 **If you have spaces in your directories, you're going to have to have to surround the host path with quotation marks**
 
