@@ -16,14 +16,12 @@
 
 
 ## Who is this for?
-This for anyone who wants to execute and debug c/c++ code 
+This for anyone who wants to execute and debug code (specifically C/C++) using a text editor and Docker.
 
 
 
 ## Why Docker for my ASU assignments?
-
-
-
+I couldn't find a text editor or IDE that I could debug my C/C++ assignments.
 
 
 
