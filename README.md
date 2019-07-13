@@ -56,20 +56,29 @@ In even simpler terms, these following lines of code will allow you to build an 
 
 
 ## Build the image
-Now that we have a Dockerfile, we can build an image (think of an image as a blueprint for the what the container should do, and the container the implementation... or the image is the class and the container is an object of that class). You can do this by following the documentation at Docker 
+Now that we have a Dockerfile, we can build an image. You can do this by following the documentation at Docker 
+
 [ HERE ](https://docs.docker.com/develop/develop-images/baseimages/)
 
 OR
 
-You can do what I did and use VS Code. There is a Docker plugin that allows you to right click on the Dockerfile, which will then prompt you for a name. We're almost done, we just need to make sure that our container has access to our project.
+You can do what I did and use Visual Studio Code. There is a Docker plugin that allows you to right click on the Dockerfile, which will then prompt you for a name then builds the image for you. 
+
+Now we just need share our project files between the host machine and Docker.
 
 ## Mapping your host drive
 
-Once you have the Dockerfile and the image built, you still need to access the "project" in the container somehow. We're going to do this by mapping the host project directory to a container directory. We do this with the volume flag:
+The volume flag is used to map a host directory to the Docker container so that you can access your project and make changes to it.
 
 ```
 -v <host_dir>:<container_dir>
 ```
+
+A shortcut is to ```cd``` into your project and execute
+```
+-v ./:<container_dir>
+```
+
 
 ## Running a Container!
 
