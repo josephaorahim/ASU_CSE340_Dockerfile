@@ -93,5 +93,6 @@ docker run -it --rm -v ./:<container_dir> <image_name>
 ```
 
 After running the above command to run your container, you should be able to execute and debug the code in the CLI.
-**Note: to use gdb you must use the flag --privileged**
+
+**Note: to debug you must use the flag --privileged**
 
