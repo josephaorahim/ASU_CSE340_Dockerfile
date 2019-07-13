@@ -58,10 +58,6 @@ In even simpler terms, these following lines of code will allow you to build an 
 ## Build the image
 Now that we have a Dockerfile, we can build an image. You can do this by following the documentation at Docker [ HERE ](https://docs.docker.com/develop/develop-images/baseimages/)
 
-OR
-
-You can do what I did and use Visual Studio Code. There is a Docker plugin that allows you to right click on the Dockerfile, which will then prompt you for a name then builds the image for you. 
-
 Now we just need share our project files between the host machine and Docker.
 
 ## Mapping your host drive
