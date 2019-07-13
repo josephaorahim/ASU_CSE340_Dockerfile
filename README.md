@@ -52,7 +52,7 @@ This Dockerfile uses the latest version of Ubuntu, sets the WORKDIR to the path 
 In even simpler terms, these following lines of code will allow you to build an image that will be based on Ubuntu (latest version), that will start in a path specified in WORKDIR and already have build-essentials, gdb, and vim installed.
 
 
-**Note: to use gdb you must use the flag --privileged**
+
 
 
 ## Build the image
@@ -93,4 +93,5 @@ docker run -it --rm -v ./:<container_dir> <image_name>
 ```
 
 After running the above command to run your container, you should be able to execute and debug the code in the CLI.
+**Note: to use gdb you must use the flag --privileged**
 
