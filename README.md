@@ -1,9 +1,19 @@
-# Docker Guide for CSE Assignments
+# How to Execute and Debug C/C++ Assignments
 
+####Required
+###Text editor
+###Docker
+
+- [ ] Who is this for?
 - [ ] Why I used Docker
 - [ ] Show you my Dockerfile
 - [ ] How to map your host drive to the container for access
 - [ ] Show you how to run a container
+
+## Who is this for?
+This for anyone who wants to execute and debug c/c++ code 
+
+
 
 ## Why Docker for my ASU assignments?
 
