@@ -83,16 +83,16 @@ A shortcut is to ```cd``` into your project and execute
 ## Running a Container!
 
 
-Here are some examples of how to use the flag.
+Here are some examples of how to run your container to execute and debug your code!
 ##### For Mac
 ```
-docker run -it --rm -v (pwd):<container_dir> <image_name>
+docker run -it --rm -v ./:<container_dir> <image_name>
 ```
 
 ##### For PC
 ```
-docker run -it --rm -v %cd%:<container_dir> <image_name>
+docker run -it --rm -v ./:<container_dir> <image_name>
 ```
-**If you have spaces in your directories, you're going to have to have to surround the host path with quotation marks**
+
 
 
