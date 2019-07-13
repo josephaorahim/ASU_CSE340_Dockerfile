@@ -1,8 +1,8 @@
 # How to Execute and Debug C/C++ Assignments
 
-####Required
-###Text editor
-###Docker
+#### Required
+### Text editor
+### Docker
 
 - [ ] Who is this for?
 - [ ] Why I used Docker
