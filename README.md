@@ -1,7 +1,7 @@
 # How to Execute and Debug C/C++ Assignments in a CLI
 
 
-
+- [ ] Video
 - [ ] Required
 - [ ] Who is this for?
 - [ ] Why I used Docker
