@@ -25,7 +25,7 @@ I couldn't find a text editor or IDE that I could debug my C/C++ assignments.
 
 
 
-## Dockerfile
+## Here's the Dockerfile
 Take the following contents and put them in a file called ```Dockerfile``` in your project directory.
 
 This Dockerfile uses the latest version of Ubuntu, sets the WORKDIR to the path you would like the container to start at, and gets some tools for us to work within the container.
@@ -65,6 +65,9 @@ Once you have the Dockerfile and the image built, you still need to access the "
 ```
 -v <host_dir>:<container_dir>
 ```
+
+## Running a Container!
+
 
 Here are some examples of how to use the flag.
 ##### For Mac
