@@ -1,15 +1,19 @@
 # How to Execute and Debug C/C++ Assignments
 
 
-## Required
-1. Text editor
-2. Docker
 
+- [ ] Required
 - [ ] Who is this for?
 - [ ] Why I used Docker
 - [ ] Show you my Dockerfile
 - [ ] How to map your host drive to the container for access
 - [ ] Show you how to run a container
+
+
+## Required
+1. Text editor
+2. Docker
+
 
 ## Who is this for?
 This for anyone who wants to execute and debug c/c++ code 
