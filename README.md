@@ -92,5 +92,5 @@ docker run -it --rm -v ./:<container_dir> <image_name>
 docker run -it --rm -v ./:<container_dir> <image_name>
 ```
 
-
+After running the above command to run your container, you should be able to execute and debug the code in the CLI.
 
