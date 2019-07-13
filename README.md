@@ -1,12 +1,16 @@
-# Dockerfile Guide for ASU Assignments
+# Docker Guide for CSE Assignments
 
 - [ ] Why I used Docker
-- [ ] Show you the Dockerfile
-- [ ] How to build the image
-- [ ] How to map your host drive to the container
+- [ ] Show you my Dockerfile
+- [ ] How to map your host drive to the container for access
+- [ ] Show you how to run a container
 
 ## Why Docker for my ASU assignments?
-Why did I use Docker? I used Docker because I was having issues debugging my CSE340 projects and it allowed me to build an environment for my projects that allowed me to debug and execute my code on Ubuntu 18. 
+
+
+
+
+
 
 ## Dockerfile
 Take the following contents and put them in a file called ```Dockerfile``` in your project directory.
