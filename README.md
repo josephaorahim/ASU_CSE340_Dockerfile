@@ -56,9 +56,7 @@ In even simpler terms, these following lines of code will allow you to build an 
 
 
 ## Build the image
-Now that we have a Dockerfile, we can build an image. You can do this by following the documentation at Docker 
-
-[ HERE ](https://docs.docker.com/develop/develop-images/baseimages/)
+Now that we have a Dockerfile, we can build an image. You can do this by following the documentation at Docker [ HERE ](https://docs.docker.com/develop/develop-images/baseimages/)
 
 OR
 
