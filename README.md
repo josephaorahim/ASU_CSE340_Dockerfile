@@ -46,7 +46,7 @@ RUN apt-get update && apt-get install -y \
     vim
     
 ```
-Know the Dockerfile best practices [ HERE ] (https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+Know the Dockerfile best practices [ HERE ](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 
 This Dockerfile uses the latest version of Ubuntu, sets the WORKDIR to the path you would like the container to start at, and gets some tools for us to work within the container.
 
