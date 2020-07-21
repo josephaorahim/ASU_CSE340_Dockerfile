@@ -1,5 +1,5 @@
 // BASE IMAGE
-FROM ubuntu:20.04
+FROM ubuntu:
 
 // container will start with workdir
 WORKDIR /<container_dir_you_want_to_start_with>
